@@ -1,7 +1,9 @@
-export default function Characters({name}) {
+export default function Characters() {
   return (
-    <div id="article">
-      <h3>{name}</h3>
-    </div>
+    <article id="characters">
+      <h1>Characters</h1>
+      <p>Her kommer noe informasjon om karakterer</p>
+      <button type="button">Vis karakterer</button>
+    </article>
   );
 }
