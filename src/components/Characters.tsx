@@ -1,3 +1,7 @@
-export default function Characters() {
-  return <h1>Characters</h1>;
+export default function Characters({name}) {
+  return (
+    <div id="article">
+      <h3>{name}</h3>
+    </div>
+  );
 }
